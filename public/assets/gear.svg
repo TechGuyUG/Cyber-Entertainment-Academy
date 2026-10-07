@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 620">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b0b0d"/><stop offset="1" stop-color="#202027"/></linearGradient><radialGradient id="glow"><stop stop-color="#ff3d81" stop-opacity=".55"/><stop offset="1" stop-color="#ff3d81" stop-opacity="0"/></radialGradient></defs>
+<rect width="660" height="620" rx="28" fill="url(#bg)"/><circle cx="535" cy="120" r="170" fill="url(#glow)"/><circle cx="120" cy="480" r="190" fill="url(#glow)" opacity=".35"/>
+<path d="M160 470 Q330 390 500 470 L555 620H105Z" fill="#08080a"/>
+<path d="M245 365 Q330 325 415 365 L475 600 L185 600Z" fill="#171717"/>
+<!-- neck and head -->
+<path d="M295 310 L295 365 Q330 395 365 365 L365 310Z" fill="#6f3d25"/>
+<ellipse cx="330" cy="235" rx="92" ry="112" fill="#704027"/>
+<path d="M235 175 Q330 45 425 175 L410 285 Q380 240 330 245 Q280 240 250 285Z" fill="#111"/><path d="M250 150 Q270 75 330 75 Q395 75 415 150" fill="none" stroke="#111" stroke-width="32" stroke-linecap="round"/>
+<!-- ears -->
+<circle cx="238" cy="245" r="17" fill="#704027"/><circle cx="422" cy="245" r="17" fill="#704027"/>
+<!-- headphones -->
+<path d="M225 245 Q225 120 330 120 Q435 120 435 245" fill="none" stroke="#090909" stroke-width="25"/>
+<rect x="212" y="225" width="38" height="70" rx="14" fill="#111"/><rect x="410" y="225" width="38" height="70" rx="14" fill="#111"/>
+<!-- face -->
+<circle cx="298" cy="238" r="7" fill="#111"/><circle cx="362" cy="238" r="7" fill="#111"/>
+<path d="M305 292 Q330 305 355 292" fill="none" stroke="#35180e" stroke-width="7" stroke-linecap="round"/>
+<!-- arms -->
+<path d="M225 395 Q180 440 145 505" fill="none" stroke="#704027" stroke-width="38" stroke-linecap="round"/>
+<path d="M435 395 Q480 440 515 505" fill="none" stroke="#704027" stroke-width="38" stroke-linecap="round"/>
+<!-- DJ controller -->
+<rect x="80" y="480" width="500" height="100" rx="18" fill="#111" stroke="#ff3d81" stroke-width="3"/>
+<circle cx="175" cy="530" r="35" fill="#202024" stroke="#777" stroke-width="5"/><circle cx="485" cy="530" r="35" fill="#202024" stroke="#777" stroke-width="5"/>
+<rect x="270" y="505" width="120" height="52" rx="7" fill="#25252b"/>
+<g fill="#ff3d81"><circle cx="290" cy="520" r="5"/><circle cx="310" cy="520" r="5"/><circle cx="330" cy="520" r="5"/><circle cx="350" cy="520" r="5"/><circle cx="370" cy="520" r="5"/></g>
+<path d="M270 545h120" stroke="#777" stroke-width="4"/>
+<text x="330" y="45" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">CYBER DJ</text>
+</svg>

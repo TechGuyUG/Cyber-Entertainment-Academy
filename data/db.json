@@ -1,0 +1,362 @@
+{
+ "settings": {
+  "tagline": "Great Vybz Nothingless",
+  "phone": "+256703046409",
+  "whatsapp": "256703046409",
+  "email": "academy@cyberentertainment.com",
+  "address": "Seguku Katale, Wankulukuku Road, Kampala",
+  "hours": "Mon – Fri 8 AM – 8 PM · Sat 8 AM – 2 PM",
+  "instagram": "",
+  "youtube": "https://www.youtube.com/@cyberg256",
+  "tiktok": "https://www.tiktok.com/@cyberentertainmnt?is_from_webapp=1&sender_device=pc",
+  "facebook": ""
+ },
+ "gear": [
+  {
+   "id": "a39b55ed-1384-46f8-b4ca-43a3cfcf5b75",
+   "name": "Controllers & Decks",
+   "description": "Available for hire — message us for availability and rates.",
+   "price": "",
+   "available": true
+  },
+  {
+   "id": "9913877f-6eda-44b4-b0d0-a7335d35f0a5",
+   "name": "Mixers",
+   "description": "Available for hire — message us for availability and rates.",
+   "price": "",
+   "available": true
+  },
+  {
+   "id": "bdce5228-3ee3-4204-9d54-758e755b0c40",
+   "name": "PA Speakers",
+   "description": "Available for hire — message us for availability and rates.",
+   "price": "",
+   "available": true
+  },
+  {
+   "id": "333bdd3c-566f-4080-b1bc-bb5b8e331088",
+   "name": "Microphones",
+   "description": "Available for hire — message us for availability and rates.",
+   "price": "",
+   "available": true
+  },
+  {
+   "id": "b286754c-b071-431b-9dd1-23e26c0b5a8c",
+   "name": "Stage Lighting",
+   "description": "Available for hire — message us for availability and rates.",
+   "price": "",
+   "available": true
+  },
+  {
+   "id": "d8ed977e-8b80-4ee1-8e71-6374cbfecfc4",
+   "name": "Effects & Extras",
+   "description": "Available for hire — message us for availability and rates.",
+   "price": "",
+   "available": true
+  }
+ ],
+ "bookings": [],
+ "admin": "ba0f3c9048127e632accb9d4e8c739a1:46039077cae5155b7902be8793345efedcb70fca11fd65f0a1dd8d369a0913d05b2d7fe9caec91800fbf4aea4348c71de92192b7829825ef17f1774c36d8450e",
+ "djs": [
+  {
+   "id": "a21d05dc-94b6-4773-83ef-5bbaa3993f51",
+   "name": "Deejay Cyber G",
+   "realName": "The Killer Mixologist",
+   "title": "Founder · Lead DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "/media/30e2cf4b-da82-438e-9dc3-2c0c92d4c193-deejay-cyber-g.webp",
+   "available": true
+  },
+  {
+   "id": "d57bf1de-28e3-4f79-9222-c2607cef3389",
+   "name": "Deejay Tzo",
+   "realName": "Mr. Good Vybz",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "/media/155a06d9-7130-41d7-94cc-b8d00f95c602-deejay-tzo.webp",
+   "available": true
+  },
+  {
+   "id": "13dc5a96-1417-439c-97a3-3678b0565b79",
+   "name": "Deejay Kaks",
+   "realName": "The Party Perfectionist",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "/media/d68a66c5-b85d-4672-b74e-52a81808ceb8-deejay-kaks.webp",
+   "available": true
+  },
+  {
+   "id": "1240fd83-54c3-446b-8491-6fbcf4381056",
+   "name": "Jx Deejay",
+   "realName": "The Scratch Professor (Ug Sn3 Scratch Battle Winner)",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "/media/c071d6ae-5a93-48a2-b131-2ddd74487de2-jx-deejay.webp",
+   "available": true
+  },
+  {
+   "id": "d4a23b4d-66f4-40be-bfcd-aa4df9eb6be8",
+   "name": "Mr.Genius 256",
+   "realName": "The Music Genius",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "/media/baeac4a1-2d86-4882-9599-df2e2d8fa351-mr-genius-256.webp",
+   "available": true
+  },
+  {
+   "id": "28a91340-519e-4759-a746-7909f23ea172",
+   "name": "Kevin Deejay",
+   "realName": "Mr. Kampala",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "",
+   "available": true
+  },
+  {
+   "id": "0411c9d7-8fbd-489b-80fd-4de9812a1ff4",
+   "name": "Deejay Lusty",
+   "realName": "",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "",
+   "available": true
+  },
+  {
+   "id": "4c696e7b-c05f-4d89-8498-ff421e7b8815",
+   "name": "Mc Mapenzi",
+   "realName": "The voice of your night",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "",
+   "available": true
+  },
+  {
+   "id": "84d8d9de-f358-4e6f-bc1e-f6e6937bd5a9",
+   "name": "Deejay Ibra Pounds",
+   "realName": "",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "",
+   "available": true
+  },
+  {
+   "id": "782e434c-c392-486e-849b-eba0fb031092",
+   "name": "Deejay King T",
+   "realName": "",
+   "title": "Cyber Entertainment DJ",
+   "bio": "",
+   "genres": "",
+   "instagram": "",
+   "photo": "",
+   "available": true
+  }
+ ],
+ "mixtapes": [
+  {
+   "id": "c837b729-b427-482d-960c-51c78aacb22a",
+   "djId": "13dc5a96-1417-439c-97a3-3678b0565b79",
+   "title": "The Perfect Experience Mixtape, Jose Chameleone, Bobi Wine, Fik Fameica, Alien Skin, King Saha.",
+   "file": "",
+   "url": "https://youtu.be/lv_tM3fzeqA",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:41:55.460Z"
+  },
+  {
+   "id": "1939ea8b-766f-47b8-a5da-edc8d55b59c1",
+   "djId": "d57bf1de-28e3-4f79-9222-c2607cef3389",
+   "title": "FIRST & LATEST DANCEHALL MIXTAPE 2026 | Dexta Daps, Spice, Popcaan, Aidonia & Konshens",
+   "file": "",
+   "url": "https://youtu.be/abwTJu10vyo",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:44:37.973Z"
+  },
+  {
+   "id": "fc9d376d-233c-49c1-a7e4-2202a7742641",
+   "djId": "1240fd83-54c3-446b-8491-6fbcf4381056",
+   "title": "THE REAL SCRATCH BATTLE SEASON 3 ROUND 2 BY JXDEEJAY THE SCRATCH PROFFESOR",
+   "file": "",
+   "url": "https://youtu.be/YGFnApucM-4",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:44:37.973Z"
+  },
+  {
+   "id": "62f76691-4024-47d0-a92a-aaa9bb70e2d4",
+   "djId": "13dc5a96-1417-439c-97a3-3678b0565b79",
+   "title": "TRAP DRIP MIXTAPE by Deejay Kaks Ft Dante Mcee",
+   "file": "",
+   "url": "https://youtu.be/63BYjHXmV4k",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:47:13.780Z"
+  },
+  {
+   "id": "97943bf6-ebd5-47e1-845b-270ff7abf1f1",
+   "djId": "13dc5a96-1417-439c-97a3-3678b0565b79",
+   "title": "After The Countdown | Chill New Year Vibes Mix – Deejay Kaks ft MC TafBwoi",
+   "file": "",
+   "url": "https://youtu.be/DK2B8qOMKMU",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:48:44.194Z"
+  },
+  {
+   "id": "a755e8bf-30e5-4993-bf86-b62014e99882",
+   "djId": "d4a23b4d-66f4-40be-bfcd-aa4df9eb6be8",
+   "title": "BASELINE MIXTAPE VOL.1 2026 BY @MR.GENIUS. Ft. Mc Chapter Official1:10:54 #22",
+   "file": "",
+   "url": "https://hearthis.at/67b705dc05651/baseline-mixtape-vol1-2026-by-mrgenius-ft-mc-chapter-official/",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:51:40.237Z"
+  },
+  {
+   "id": "5e9e177d-7552-4aca-be91-711fa4b32c5e",
+   "djId": "a21d05dc-94b6-4773-83ef-5bbaa3993f51",
+   "title": "🔥 THE CLUB TAKEOVER | Amapiano x Afrobeats x Dancehall x Ragga | Nonstop Club Bangers | DJ Cyber G",
+   "file": "",
+   "url": "https://youtu.be/oY5-_dVLOIo",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-01T11:53:12.541Z"
+  },
+  {
+   "id": "22273465-61b6-4bbe-87ff-ca32fd30b417",
+   "djId": "d4a23b4d-66f4-40be-bfcd-aa4df9eb6be8",
+   "title": "#PREMIERE MONDAYS LIVE SET MIX @TEO LOUNGE EP1 BY MR.GENIUS 256 & MC BEY'CA",
+   "file": "",
+   "url": "https://hearthis.at/67b705dc05651/premiere-mondays-live-set-mix-teo-lounge-ep1-by-mrgenius-256-mc-beyca/",
+   "available": true,
+   "downloads": 0,
+   "created": "2026-10-02T09:34:26.209Z"
+  }
+ ],
+ "shirts": [
+  {
+   "id": "593a3412-83f2-403f-9164-10b6e81f6b77",
+   "djId": "a21d05dc-94b6-4773-83ef-5bbaa3993f51",
+   "name": "Deejay Cyber G Signature Tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "f2b1ea5e-169f-48a4-9d1c-a68cc4fdbd4f",
+   "djId": "d57bf1de-28e3-4f79-9222-c2607cef3389",
+   "name": "Deejay Tzo Signature Tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "d33939f9-d119-4e05-9ab8-11f364fbc74a",
+   "djId": "13dc5a96-1417-439c-97a3-3678b0565b79",
+   "name": "Deejay Kaks Signature Tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "9577a019-2a38-455f-a565-640645c56452",
+   "djId": "1240fd83-54c3-446b-8491-6fbcf4381056",
+   "name": "Jx Deejay Signature Tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "01d81734-925b-49d9-8ec0-62995c16b1d6",
+   "djId": "d4a23b4d-66f4-40be-bfcd-aa4df9eb6be8",
+   "name": "Mr.Genius 256 Signature Tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "76f39143-7509-443b-adcc-e022723ddabf",
+   "djId": "28a91340-519e-4759-a746-7909f23ea172",
+   "name": "Kevin Deejay Sign",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "7fa6ed90-a642-4060-a870-86c4f0f39157",
+   "djId": "0411c9d7-8fbd-489b-80fd-4de9812a1ff4",
+   "name": "Untitled tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "c857acc3-a72c-4fc6-83ef-2443815c6a08",
+   "djId": "4c696e7b-c05f-4d89-8498-ff421e7b8815",
+   "name": "Untitled tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  },
+  {
+   "id": "42a74514-ef04-4035-85c9-2bda292272e5",
+   "djId": "84d8d9de-f358-4e6f-bc1e-f6e6937bd5a9",
+   "name": "Untitled tee",
+   "description": "Official Cyber Entertainment t.shirts.",
+   "price": 35000,
+   "sizes": "S,M,L,XL,XXL",
+   "image": "",
+   "available": true
+  }
+ ],
+ "events": [
+  {
+   "id": "daa6c94e-9f24-4334-865e-55871516bb27",
+   "title": "Uganda Vs Kenya Scratch Show Case",
+   "date": "2026-10-19",
+   "time": "04:00pm - Late",
+   "venue": "Cyber Entertainment Studios",
+   "description": "🎧 UGANDA vs. KENYA: Scratch Show Case Get ready for an epic musical showdown as the finest turntable talents go head-to-head! Cyber Entertainment proudly presents the ultimate cross-border battle: Kenyan Scratch DJs vs. Ugandan Scratch DJs. Expect high-energy mixes, elite turntable skills, and non-stop vibes until late.   Event Details:Host: Cyber Entertainment   Date: Monday, 19th October 2026   Time: 4:00 PM Till Late   Location: Cyber Entertainment, Sseguku   Get Involved:Contact Us: +256 703 046 409   Registration: a",
+   "lineup": "All baddest Uganda Scratch Deejays",
+   "price": "Free",
+   "ticketUrl": "",
+   "image": "/media/f5276112-3354-4117-a53f-c2baa4fde79b-WhatsApp_Image_2026-10-02_at_11.37.48_AM.jpeg",
+   "status": "upcoming",
+   "available": true
+  }
+ ]
+}

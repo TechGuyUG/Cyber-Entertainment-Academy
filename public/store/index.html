@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Store — Cyber Entertainment</title><meta name="description" content="Cyber Entertainment store: DJ profiles, mixtapes and official T-shirts.">
+<meta name="theme-color" content="#0b0b0b">
+<style>:root{--bg:#0b0b0b;--c1:#141416;--c2:#1c1c21;--m:#e11d9c;--p:#8b3dff;--red:#d7263d;--mut:#b5b5c2;--line:#2b2b33;--grad:linear-gradient(90deg,var(--m),var(--p))}
+*{box-sizing:border-box}body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#ececf2;background:var(--bg)}
+a{color:inherit;text-decoration:none}h1,h2,h3,h4,p{margin:0}img,svg{max-width:100%;display:block}.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:30;background:rgba(11,11,11,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+.brand strong{letter-spacing:.16em}.brand em{display:block;font-style:normal;font-size:.62rem;letter-spacing:.3em;color:var(--mut);text-transform:uppercase}
+.hn{display:flex;gap:10px;align-items:center}.pill{border:1px solid var(--line);background:transparent;color:#fff;border-radius:99px;padding:8px 16px;font:inherit;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.pill:hover{border-color:var(--m)}.pill b{background:var(--red);border-radius:99px;padding:1px 8px;margin-left:6px;font-size:.75rem}
+.btn{display:inline-block;background:var(--grad);color:#fff;padding:12px 26px;border-radius:99px;font:inherit;font-weight:700;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;border:0;cursor:pointer;transition:.2s;text-align:center}.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.btn.o{background:transparent;border:2px solid #fff;padding:10px 24px}.btn.o:hover{background:#fff;color:#000}
+main{padding:50px 0 90px;min-height:70vh}h2{font-size:clamp(1.6rem,3.4vw,2.3rem);margin-bottom:26px;letter-spacing:.04em;text-transform:uppercase}h2:after{content:"";display:block;width:70px;height:4px;border-radius:4px;background:var(--grad);margin-top:10px}.lead{max-width:660px;color:var(--mut);margin:-10px 0 32px}.soon{color:var(--mut)}
+.djgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}.dj{background:var(--c1);border:1px solid var(--line);border-radius:14px;padding:28px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px;transition:.25s}.dj:hover{border-color:var(--m);box-shadow:0 0 34px -8px rgba(225,29,156,.6);transform:translateY(-4px)}
+.dj h3{letter-spacing:.06em;text-transform:uppercase;font-size:1.05rem;margin-top:8px}.dj span{color:var(--m);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase}.dj p{color:var(--mut);font-size:.88rem}.dj .btn{margin-top:8px;padding:10px 22px}
+.av{width:96px;height:96px;border-radius:50%;background:var(--grad);display:grid;place-items:center;font-size:1.9rem;font-weight:800;overflow:hidden;flex:none;box-shadow:0 0 0 3px #0b0b0b,0 0 0 5px var(--m)}.av img{width:100%;height:100%;object-fit:cover}.av.big{width:150px;height:150px;font-size:3rem}
+.back{display:inline-block;color:var(--mut);margin-bottom:24px;font-size:.9rem}.back:hover{color:#fff}
+.prof{display:flex;gap:36px;align-items:center;margin-bottom:64px;flex-wrap:wrap}.prof h1{font-size:clamp(2rem,5vw,3.2rem);text-transform:uppercase;letter-spacing:.05em;line-height:1.1}.ttl{color:var(--m);letter-spacing:.14em;text-transform:uppercase;font-size:.85rem}.bio{color:#d8d8e2;max-width:640px;margin:14px 0}.acts{display:flex;gap:12px;flex-wrap:wrap}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.tags span{border:1px solid var(--m);border-radius:99px;padding:3px 14px;font-size:.82rem}
+.blk{margin-bottom:64px}.mxg{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}.mx{background:var(--c1);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:12px}.mx h4{font-size:1.02rem;display:flex;gap:10px;align-items:center}.mx h4:before{content:"♪";display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--grad);flex:none}.mx audio{width:100%;height:40px;color-scheme:dark}.mx .btn{align-self:flex-start;padding:9px 20px;font-size:.75rem}
+.tees{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}.tee{background:var(--c1);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:.25s}.tee:hover{border-color:var(--m);box-shadow:0 0 30px -10px rgba(225,29,156,.6)}
+.tm{aspect-ratio:1;background:radial-gradient(circle at 50% 40%,rgba(139,61,255,.35),#101013 70%);display:grid;place-items:center}.tm img{width:100%;height:100%;object-fit:cover}.tm svg{width:72%}.tb{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}.tb h3{font-size:1.05rem}.tb p{color:var(--mut);font-size:.88rem;flex:1}.pr{font-weight:800;font-size:1.15rem;color:#fff}
+select,input{font:inherit;padding:10px;border:1px solid var(--line);border-radius:8px;background:#0b0b0b;color:#fff;width:100%}select:focus,input:focus{outline:2px solid var(--m);border-color:transparent}
+#cart{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:#101013;border-left:1px solid var(--line);z-index:50;transform:translateX(105%);transition:.3s;display:flex;flex-direction:column}#cart.open{transform:none;box-shadow:-20px 0 60px rgba(0,0,0,.6)}
+.ch{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)}.ch h3{letter-spacing:.1em;text-transform:uppercase}#cl{flex:1;overflow:auto;padding:12px 20px}.ci{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.ci small{display:block;color:var(--mut)}.qty{display:flex;gap:6px;align-items:center}.qty button{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:var(--c2);color:#fff;cursor:pointer}
+#co{padding:16px 20px;border-top:1px solid var(--line);display:grid;gap:10px}.tot{display:flex;justify-content:space-between;font-weight:800;font-size:1.1rem}.note{color:var(--mut);font-size:.78rem}
+footer{background:#000;color:var(--mut);padding:30px 0;text-align:center;font-size:.9rem;border-top:1px solid var(--line)}
+@media(max-width:560px){.prof{gap:20px}.wrap{padding:0 16px}}.real{color:var(--mut);font-size:.85rem;margin-top:-2px}.dj .real:empty{display:none}.prof .real{margin:4px 0 6px}
+</style></head><body>
+<header><div class="wrap"><a class="brand" href="/store/"><strong>CYBER STORE</strong><em>Cyber Entertainment</em></a><div class="hn"><a class="pill" href="/">← Main site</a><button class="pill" id="cb">Cart<b id="cc">0</b></button></div></div></header>
+<main><div id="app"><div class="wrap"><p class="soon">Loading…</p></div></div></main>
+<aside id="cart" aria-label="Cart"><div class="ch"><h3>Your cart</h3><button class="pill" id="cx">Close</button></div><div id="cl"></div>
+<form id="co" hidden><div class="tot"><span>Total</span><span id="tt"></span></div><input name="n" placeholder="Your name" required maxlength="80"><input name="p" type="tel" placeholder="Phone / WhatsApp" required maxlength="30"><input name="v" placeholder="Delivery location" maxlength="120"><button class="btn" type="submit">Order on WhatsApp</button><p class="note">Your order is sent to us on WhatsApp. We confirm the price, delivery and payment with you there.</p></form></aside>
+<footer><div class="wrap">© <span id="y"></span> Cyber Entertainment · Seguku Katale, Wankulukuku Road, Kampala</div></footer>
+<script>
+(async()=>{
+const $=s=>document.querySelector(s),mk=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const ini=n=>{const w=n.replace(/\b(deejay|dj)\b/ig,'').trim().split(/\s+/).filter(Boolean);return(w.length>1?w.slice(0,2).map(x=>x[0]).join(''):(w[0]||n).slice(0,2)).toUpperCase()};
+const money=n=>'UGX '+Number(n).toLocaleString('en-US');$('#y').textContent=new Date().getFullYear();
+let C={settings:{},djs:[],mixtapes:[],shirts:[]};try{C=await(await fetch('/api/content')).json()}catch{}
+const DJ=(C.djs||[]).filter(d=>d.available),SH=C.shirts||[],MX=C.mixtapes||[],WA=(C.settings&&C.settings.whatsapp)||'256703046409',app=$('#app');
+const djOf=id=>DJ.find(d=>d.id===id);
+let cart=[];try{cart=JSON.parse(localStorage.getItem('cy_cart')||'[]')}catch{}
+cart=(Array.isArray(cart)?cart:[]).map(i=>{const s=SH.find(x=>x.id===i.id);return s&&djOf(s.djId)&&s.price>0?{id:s.id,name:s.name,size:String(i.size||'').slice(0,10),qty:Math.min(20,Math.max(1,+i.qty||1)),price:s.price}:null}).filter(Boolean);
+const persist=()=>{try{localStorage.setItem('cy_cart',JSON.stringify(cart))}catch{}};
+const av=(d,c)=>{const v=mk('div','av'+(c?' '+c:''));if(d.photo){const i=new Image();i.src=d.photo;i.alt=d.name;v.append(i)}else v.textContent=ini(d.name);return v};
+const plural=(n,w)=>n+' '+w+(n===1?'':'s');
+function list(){app.replaceChildren();const w=mk('div','wrap');w.append(mk('h2','','Cyber Store'),mk('p','lead','Pick a DJ to see their profile, play their mixtapes and get their official T-shirts.'));
+ if(!DJ.length)w.append(mk('p','soon','The store is opening soon.'));
+ const g=mk('div','djgrid');DJ.forEach(d=>{const a=mk('a','dj');a.href='#'+d.id;a.append(av(d),mk('h3','',d.name),mk('small','real',d.realName||''),mk('span','',d.title),mk('p','',plural(MX.filter(x=>x.djId===d.id).length,'mixtape')+' · '+plural(SH.filter(x=>x.djId===d.id).length,'T-shirt')),mk('b','btn','Enter store'));g.append(a)});
+ w.append(g);app.append(w)}
+function tee(x,d){const c=mk('div','tee'),m=mk('div','tm');
+ if(x.image){const i=new Image();i.src=x.image;i.alt=x.name;i.loading='lazy';m.append(i)}
+ else m.innerHTML='<svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="tg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#e11d9c"/><stop offset="1" stop-color="#8b3dff"/></linearGradient></defs><path d="M32 10 10 24l10 16 8-5v53h44V35l8 5 10-16L68 10Q50 24 32 10Z" fill="url(#tg)"/><text x="50" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="800" font-size="16" fill="#fff">'+ini(d.name).replace(/[^A-Z0-9]/g,'')+'</text></svg>';
+ const b=mk('div','tb');b.append(mk('h3','',x.name));if(x.description)b.append(mk('p','',x.description));
+ if(x.price>0){b.append(mk('div','pr',money(x.price)));const sz=(x.sizes||'').split(',').map(s=>s.trim()).filter(Boolean),sel=document.createElement('select');sel.setAttribute('aria-label','Size');sz.forEach(s=>sel.append(new Option('Size '+s,s)));
+  const btn=mk('button','btn','Add to cart');btn.onclick=()=>{const size=sel.value||'',f=cart.find(i=>i.id===x.id&&i.size===size);f?f.qty=Math.min(20,f.qty+1):cart.push({id:x.id,name:x.name,size,qty:1,price:x.price});persist();drawCart();$('#cart').classList.add('open')};b.append(sz.length?sel:'',btn)}
+ else{b.append(mk('div','pr','Price on request'));const a=mk('a','btn','Ask on WhatsApp');a.href='https://wa.me/'+WA+'?text='+encodeURIComponent('Hi Cyber Entertainment! I\'m interested in the "'+x.name+'" T-shirt.');a.target='_blank';a.rel='noopener';b.append(a)}
+ c.append(m,b);return c}
+function page(d){app.replaceChildren();const mx=MX.filter(x=>x.djId===d.id),sh=SH.filter(x=>x.djId===d.id),w=mk('div','wrap'),back=mk('a','back','← All DJs');back.href='#';
+ const hero=mk('section','prof'),t=mk('div');t.append(mk('h1','',d.name));if(d.realName)t.append(mk('p','real','Real name: '+d.realName));t.append(mk('span','ttl',d.title));
+ if(d.genres){const tg=mk('div','tags');d.genres.split(/[,·\/]+/).map(x=>x.trim()).filter(Boolean).forEach(x=>tg.append(mk('span','',x)));t.append(tg)}
+ t.append(mk('p','bio',d.bio||'Cyber Entertainment DJ.'));const acts=mk('div','acts'),bk=mk('a','btn','Book '+d.name);bk.href='/#book';acts.append(bk);
+ if(d.instagram){const ig=mk('a','btn o','Instagram');ig.href=d.instagram;ig.target='_blank';ig.rel='noopener';acts.append(ig)}t.append(acts);hero.append(av(d,'big'),t);
+ const s1=mk('section','blk');s1.append(mk('h2','','Mixtapes'));
+ if(!mx.length)s1.append(mk('p','soon','New mixtapes from '+d.name+' are coming soon.'));
+ else{const g=mk('div','mxg');mx.forEach(x=>{const c=mk('div','mx');c.append(mk('h4','',x.title));
+  if(x.stream){const a=document.createElement('audio');a.controls=true;a.preload='none';a.src=x.stream;c.append(a);const b=mk('a','btn','⬇ Download');b.href='/api/mixtapes/'+x.id+'/download';b.setAttribute('download','');c.append(b)}
+  else{const b=mk('a','btn','▶ Listen');b.href=x.link;b.target='_blank';b.rel='noopener';c.append(b)}g.append(c)});s1.append(g)}
+ const s2=mk('section','blk');s2.append(mk('h2','',d.name+' T-shirts'));
+ if(!sh.length)s2.append(mk('p','soon','T-shirts from '+d.name+' are coming soon.'));else{const g=mk('div','tees');sh.forEach(x=>g.append(tee(x,d)));s2.append(g)}
+ w.append(back,hero,s1,s2);app.append(w);scrollTo(0,0)}
+const total=()=>cart.reduce((a,i)=>a+i.price*i.qty,0);
+function drawCart(){$('#cc').textContent=cart.reduce((a,i)=>a+i.qty,0);const l=$('#cl');l.replaceChildren();
+ if(!cart.length){l.append(mk('p','soon','Your cart is empty.'));$('#co').hidden=true;return}$('#co').hidden=false;
+ cart.forEach((i,k)=>{const r=mk('div','ci'),t=mk('div'),q=mk('div','qty'),mi=mk('button','','−'),pl=mk('button','','+'),rm=mk('button','','✕');
+  t.append(mk('b','',i.name),mk('small','',(i.size?'Size '+i.size+' · ':'')+money(i.price)));
+  mi.onclick=()=>{i.qty--;if(i.qty<1)cart.splice(k,1);persist();drawCart()};pl.onclick=()=>{i.qty=Math.min(20,i.qty+1);persist();drawCart()};rm.onclick=()=>{cart.splice(k,1);persist();drawCart()};
+  q.append(mi,mk('span','',i.qty),pl,rm);r.append(t,q);l.append(r)});$('#tt').textContent=money(total())}
+$('#cb').onclick=()=>$('#cart').classList.toggle('open');$('#cx').onclick=()=>$('#cart').classList.remove('open');
+$('#co').onsubmit=e=>{e.preventDefault();if(!cart.length)return;const f=new FormData(e.target),msg=cart.map(i=>i.qty+' x '+i.name+(i.size?' ('+i.size+')':'')+' — '+money(i.price*i.qty)).join('\n')+'\nTotal: '+money(total());
+ fetch('/api/bookings',{method:'POST',headers:{'Content-Type':'application/json'},keepalive:true,body:JSON.stringify({n:f.get('n'),p:f.get('p'),s:'Store Order',v:f.get('v'),m:msg})}).catch(()=>{});
+ window.open('https://wa.me/'+WA+'?text='+encodeURIComponent('Hi Cyber Entertainment! I want to order:\n'+msg+'\nName: '+f.get('n')+'\nPhone: '+f.get('p')+'\nDelivery: '+(f.get('v')||'-')),'_blank');
+ cart=[];persist();drawCart();$('#cart').classList.remove('open');e.target.reset()};
+const route=()=>{let id='';try{id=decodeURIComponent(location.hash.slice(1))}catch{}const d=djOf(id);d?page(d):list();document.title=(d?d.name+' — ':'')+'Store — Cyber Entertainment'};
+addEventListener('hashchange',route);document.addEventListener('play',e=>document.querySelectorAll('audio').forEach(a=>{if(a!==e.target)a.pause()}),true);
+route();drawCart();
+})();
+</script></body></html>
